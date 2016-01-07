@@ -12,6 +12,10 @@ $(document).ready(function(){
   		$(".overlay").fadeOut(1000);
   	});
 
+  	$("#guess-form").submit(function(event) {
+  		event.preventDefault();
+  	});
+
 });
 
 
